@@ -1,0 +1,25 @@
+:root {
+  --brand-color-black: #1b1c1e;
+  --brand-color-green: #00a770;
+  --brand-color-dark-purple: #493b6e;
+  --brand-color-purple: #8c74d2;
+  --background-color: var(--brand-color-black);
+  --foreground-color: var(--brand-color-green);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  color: var(--foreground-color);
+  background: var(--background-color);
+}
+
+a {
+  color: var(--brand-color-purple);
+  text-decoration: none;
+}
